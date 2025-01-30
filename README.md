@@ -23,4 +23,12 @@ stdout_logfile=/var/log/worker
 php runner -c save_event --name 'name' --receiver 1 --text 'text' --cron '* * * * *' * * * * * php runner -c handle_events
 ```
 
+### Решение:
+
+Закидываем файлы в нужную папку (в нашем случае: /home/reminder-bot/php/learning/cur/), затем редактируем файл в супервизоре:
+
 ![Скриншот1](Скриншоты/Безымянный.png)
+
+Получаем следующий конфиг:
+
+![Скриншот2](Скриншоты/Безымянный1.png)
