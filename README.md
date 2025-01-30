@@ -22,3 +22,5 @@ stdout_logfile=/var/log/worker
 ```
 php runner -c save_event --name 'name' --receiver 1 --text 'text' --cron '* * * * *' * * * * * php runner -c handle_events
 ```
+
+![Скриншот1](Скриншоты/Безымянный.png)
